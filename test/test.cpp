@@ -10,7 +10,7 @@
 #include <utility>
 #include <list>
 #include <deque>
-#include "PyInCpp_v0_9.hpp"
+#include "PyInCpp.hpp"
 
 // Test result counters
 int passed_count = 0;

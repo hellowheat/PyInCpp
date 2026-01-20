@@ -19,7 +19,7 @@ PyInCpp 是一个轻量级的 C++ 头文件库，让你可以在 C++ 中使用 P
 ```cpp
 #include <map>
 #include <utility>
-#include "PyInCpp_vX.X.hpp"
+#include "PyInCpp.hpp"
 
 int main() {
     std::map<std::string, int> scores = {
@@ -45,7 +45,7 @@ int main() {
 #include <vector>
 #include <set>
 #include <array>
-#include "PyInCpp_vX.X.hpp"
+#include "PyInCpp.hpp"
 
 int main() {
     std::vector<int> nums = {1, 2, 3};
