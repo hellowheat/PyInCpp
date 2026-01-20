@@ -28,11 +28,11 @@ int main() {
     };
     
     if ("Alice" in scores) {
-        // Alice 存在
+        // 检查键是否存在
     }
     
     if (std::make_pair("Bob", 87) in scores) {
-        // Bob 的分数是 87
+        // 检查键值对是否存在
     }
     
     return 0;
@@ -68,11 +68,13 @@ int main() {
 
 ## 版本更新记录
 
-### v0.9 (2026-01-20)
+### v1.0 (2026-01-20)
 
-- 初始版本发布
+- 首个正式版本发布
 - 实现核心 `in` 操作符功能
-- 支持标准库容器（vector, list, set, map, array 等）
+- 支持所有标准库容器（vector, list, deque, array, set, multiset, unordered_set, unordered_multiset, map, multimap, unordered_map, unordered_multimap）
+- 支持键和键值对查找
+- 包含完整测试套件
 
 ## 许可证
 
