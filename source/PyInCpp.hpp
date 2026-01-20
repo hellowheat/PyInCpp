@@ -1,6 +1,8 @@
 /**
  * PyInCpp
  * 一个让你在 C++ 中使用 Python 风格 "if (x in container)" 的轻量级库
+ *
+ * Requirements: C++17 or later
  */
 
 #pragma once

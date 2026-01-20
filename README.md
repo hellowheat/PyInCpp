@@ -4,6 +4,8 @@
 
 PyInCpp 是一个轻量级的 C++ 头文件库，让你可以在 C++ 中使用 Python 风格的 `in` 操作符进行容器成员检查。通过简洁的语法糖，让 C++ 代码更加优雅和易读。
 
+**要求**：C++17 或更高版本
+
 ### 特性
 
 - **Python 风格语法**：使用 `if (x in container)` 替代繁琐的 `std::find` 或 `container.find()`
